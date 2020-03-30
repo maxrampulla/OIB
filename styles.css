@@ -1,0 +1,101 @@
+h1 {
+    font-family: "PT Sans", serif;
+    font-weight: bold;
+    font-size: 60;
+    color: #464646;
+}
+
+h2 {
+    font-family: "PT Sans", serif;
+    font-weight: bold;
+    font-size: 30;
+    color: #464646;
+}
+
+p {
+    font-family: "PT Sans", serif;
+    font-size: 12;
+    color: #464646;
+}
+
+/*Header wwhich appears at the top of every page*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 45px;
+    /*position: fixed;*/
+    margin: 22px;
+    opacity: 100%;
+}
+
+  /* List of Links in Nav */
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: "PT Sans", serif;
+    font-size: 12;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-links a { 
+    margin: 3vw;
+    align-items: center;
+    color: #464646;
+}
+
+/*header Logo*/
+.header-logo {
+    height: 40px;
+    width: auto;
+}
+
+.div-with-links {
+    align-items: center;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    background-position: bottom;
+    background-image: url(assets/landing.png);
+    background-size: 100% auto;
+    height: 625px;
+    width: 1440px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.description-landing-text {
+    padding-top: 10px;
+}
+
+.underline {
+    background-repeat: repeat-x;
+    background-image: url(assets/Highlight.svg);
+    background-position: 0 .82em;
+    background-size: 100px 10px;
+}
+
+.button {
+    background-color:#ffffff;
+	border-radius:3px;
+	cursor:pointer;
+	color:#464646;
+	font-family:"PT Sans", serif;
+	font-size:22px;
+	padding:16px 37px;
+    text-decoration:none;
+    border: none;
+    font-weight: 550;
+    margin-top: 75px;
+}
