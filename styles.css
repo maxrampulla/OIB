@@ -40,10 +40,6 @@ header {
     align-items: center;
 }
 
-.main {
-    ite
-}
-
 .nav-links a { 
     margin: 3vw;
     align-items: center;
@@ -83,9 +79,16 @@ header {
     padding-top: 10px;
 }
 
-.underline {
+.underline-yellow {
     background-repeat: repeat-x;
-    background-image: url(assets/Highlight.svg);
+    background-image: url(assets/Highlight_Yellow.svg);
+    background-position: 0 .82em;
+    background-size: 100px 10px;
+}
+
+.underline-blue {
+    background-repeat: repeat-x;
+    background-image: url(assets/Highlight_Blue.svg);
     background-position: 0 .82em;
     background-size: 100px 10px;
 }
@@ -102,4 +105,21 @@ header {
     border: none;
     font-weight: 550;
     margin-top: 75px;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.green-background {
+    background-color: #4FB390;
+    height: 200px;
 }
