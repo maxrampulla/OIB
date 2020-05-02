@@ -1,14 +1,23 @@
 h1 {
     font-family: "PT Sans", serif;
     font-weight: bold;
-    font-size: 60;
     color: #464646;
 }
 
 h2 {
     font-family: "PT Sans", serif;
     font-weight: bold;
-    font-size: 30;
+    color: #464646;
+}
+
+h3 {
+    font-family: "PT Sans", serif;
+    color: #464646;
+}
+
+h4 {
+    font-family: "PT Sans", serif;
+    font-size: 18px;
     color: #464646;
 }
 
@@ -38,6 +47,10 @@ header {
     font-size: 12;
     padding: 0;
     align-items: center;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .nav-links a { 
@@ -122,4 +135,25 @@ header {
 .green-background {
     background-color: #4FB390;
     height: 200px;
+}
+
+.center {
+    text-align: center;
+    margin: 100px;
+}
+
+.profile-image img{
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
 }
