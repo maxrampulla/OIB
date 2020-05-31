@@ -27,6 +27,10 @@ p {
     color: #464646;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /*Header wwhich appears at the top of every page*/
 header {
     display: flex;
@@ -47,6 +51,18 @@ header {
     font-size: 12;
     padding: 0;
     align-items: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-family: "PT Sans", serif;
+    font-size: 12;
+    padding: 0;
+    align-items: left;
+    width: 550px;
+    padding-top: 10px;
 }
 
 .bold {
@@ -125,7 +141,12 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.body1 img{
+    width: 400px;
 }
 
 .half-width {
@@ -151,9 +172,37 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .row1 {
     display: flex;
     justify-content: space-evenly;
+}
+
+.get-involved-body {
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    margin-top: 70px;
+}
+
+.involved-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.involved-section-image {
+    padding-bottom: 10px;
+}
+
+.join-us {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.this {
+    font-size: 18px;
+    line-height: 2;
 }
