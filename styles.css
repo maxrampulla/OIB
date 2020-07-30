@@ -52,13 +52,21 @@ header {
   flex-direction: row;
   list-style-type: none;
   font-family: "PT Sans", serif;
-  font-size: 12;
+  font-size: 16px;
   padding: 0;
   align-items: center;
+  text-decoration: none;
 }
 
 .nav-links li a {
   text-decoration: none;
+}
+
+.nav-links li a:hover{
+  background-repeat: repeat-x;
+  background-image: url(assets/Highlight_Yellow.svg);
+  background-position: 0 0.82em;
+  background-size: 75px 10px;
 }
 
 .bio {
@@ -89,6 +97,12 @@ header {
   width: auto;
 }
 
+@media screen and (max-width: 400px){
+  .header-logo {
+    content:url("assets/short_logo.png");
+  }
+}
+
 .div-with-links {
   align-items: center;
 }
@@ -98,9 +112,9 @@ header {
   flex-direction: column;
   background-position: bottom;
   background-image: url(assets/landing.png);
-  background-size: auto 110%;
+  background-size: cover;
   height: 625px;
-  width: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -154,7 +168,20 @@ header {
   padding-right: 50px;
 }
 
+.body2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .body1 img {
+  width: 400px;
+}
+
+.body2 img {
   width: 400px;
 }
 
@@ -194,8 +221,8 @@ header {
   flex-direction: column;
   margin-left: 150px;
   margin-right: 150px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .involved-section {
@@ -216,7 +243,7 @@ header {
 }
 
 .this {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2;
 }
 
@@ -238,8 +265,21 @@ header {
     width: 70vw;
   }
 
+  .body2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .body2 img {
+    width: 70vw;
+  }
+
   .description-landing-text {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     width: auto;
@@ -247,7 +287,6 @@ header {
 
   .nav-links li a {
     text-decoration: none;
-    font-size: 14px;
 }
 
 .header-logo {
