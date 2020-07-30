@@ -251,7 +251,7 @@ header {
   width: 800px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) { 
   .body1 {
     display: flex;
     flex-direction: column;
