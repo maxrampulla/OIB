@@ -28,7 +28,7 @@ h4 {
 
 p {
   font-family: "PT Sans", serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #464646;
 }
 
@@ -152,7 +152,7 @@ header {
   color: #464646;
   font-family: "PT Sans", serif;
   font-size: 20px;
-  padding: 10px 37px;
+  padding: 15px 15px;
   text-decoration: none;
   border: none;
   font-weight: 550;
@@ -243,12 +243,13 @@ header {
 }
 
 .this {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
 }
 
 .main-header{
   width: 800px;
+  padding-bottom: 15px;
 }
 
 @media screen and (max-width: 1000px) { 
