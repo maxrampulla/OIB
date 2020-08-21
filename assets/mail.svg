@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="29px" viewBox="0 0 35 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>mail</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-1103.000000, -3639.000000)" stroke="#464646" stroke-width="3">
+            <g id="mail" transform="translate(1105.000000, 3641.000000)">
+                <path d="M3.125,0 L28.125,0 C29.84375,0 31.25,1.40625 31.25,3.125 L31.25,21.875 C31.25,23.59375 29.84375,25 28.125,25 L3.125,25 C1.40625,25 0,23.59375 0,21.875 L0,3.125 C0,1.40625 1.40625,0 3.125,0 Z" id="Path"></path>
+                <polyline id="Path" points="31.25 3.125 15.625 14.0625 0 3.125"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

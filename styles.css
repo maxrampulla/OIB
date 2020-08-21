@@ -69,6 +69,61 @@ header {
   background-size: 75px 10px;
 }
 
+hr {
+  border: 1px solid #464646;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding-right: 40px;
+  padding-left: 0;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.this-list {
+  display: flex;
+  width: 37vw;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  justify-content: space-between;
+}
+
+.this-list img{
+  height: 19px;
+  padding-right: 10px;
+  vertical-align: middle
+}
+
+.this-list a {
+  text-decoration: none;
+  color: #464646;
+}
+
+.this-list a:hover {
+  text-decoration: underline;
+  color: #464646;
+
+}
+
+.footer-links ul li {
+  font-family: "PT Sans", serif;
+  font-size: 14px;
+  color: #464646;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
@@ -114,7 +169,6 @@ header {
   background-image: url(assets/landing.png);
   background-size: cover;
   height: 625px;
-  width: 100vw;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -190,8 +244,13 @@ header {
 }
 
 .green-background {
-  background-color: #4fb390;
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #4FB390;
+  padding-top: 45px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  height: 150px;
 }
 
 .center {
@@ -262,6 +321,18 @@ header {
     padding-right: 5px;
   }
 
+  .footer-links ul {
+    flex-direction: column;
+  }
+
+  .this-list {
+    padding-top: 20px;
+  }
+
+  .this-list li {
+    width: 250px;
+  }
+
   .body1 img {
     width: 70vw;
   }
@@ -286,7 +357,7 @@ header {
     width: auto;
   }
 
-  .nav-links li a {
+.nav-links li a {
     text-decoration: none;
 }
 
